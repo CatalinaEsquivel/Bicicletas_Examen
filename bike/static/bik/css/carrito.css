@@ -1,0 +1,16 @@
+body{
+    font-family: 'Segoe UI', 'consolas';
+}
+
+.container{
+    background-color: white;
+    flex-direction: row;
+    flex-direction:  row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+.display-1{
+    background: #e74c3c;
+    color: white;
+}

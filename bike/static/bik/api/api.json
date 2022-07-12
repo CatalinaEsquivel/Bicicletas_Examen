@@ -1,0 +1,27 @@
+{
+    "categories": [{
+            "idCategory": "1",
+            "strCategory": "Radio Darko",
+            "strCategoryThumb": "img/biciBmx.jpg",
+            "strCategoryDescription": " Bicicleta BMX Radio Darko 2021. Bicicleta de nivel amateur, con un tamaño de rueda 20″. Cuadro 21. Rueda trasera con buje semi sellado Cassette, driver de 9 dientes, llanta de pared simple. Rueda delantera con buje macho de bolas y llanta pared simple. Peso: 11,59kg",
+            "strCategoryPrecio": "$425.300 "
+        },
+        {
+            "idCategory": "2",
+            "strCategory": "Santa Cruz",
+            "strCategoryThumb": "img/bicii.jpg",
+            "strCategoryDescription": "Cuadro de carbono prémium Canyon Factory Racing. Incluido en la categoría 5, la más exigente en cuanto a pruebas de resistencia. Un cuadro habitual en el podio de la Copa del Mundo DH. Ajuste independiente de alcance y longitud de vaina.",
+            "strCategoryPrecio": "$425.300"
+        },
+        {
+            "idCategory": "3",
+            "strCategory": "MONGOOSE",
+            "strCategoryThumb": "img/bikee.jpg",
+            "strCategoryDescription": "Bicicletas Freestyle. Neumáticos Bicicleta 20 x 2.25. Volante 3 Piezas Chromoly, plato 25t acero. Género Unisex. Aro Bicicleta 20",
+            "strCategoryPrecio": "$300.000"
+        }
+    ]
+
+}
+
+

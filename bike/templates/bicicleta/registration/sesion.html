@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load static %}
+{% load socialaccount %} 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Inicio Sesion</title>
+</head>
+<body>
+    {% load crispy_forms_tags %}
+    <div class="contairner">
+        <div class="row">
+            <div class="col-12 col-md-6 offset-md-3">
+
+                <div class="card">
+                    <div class="card-body">
+                        <h2>Ingresa tus Credenciales</h2>
+                        <hr>
+                        <form action="" method="post">
+
+                            {% csrf_token %}
+                            {{ form | crispy }}
+
+                            <input type="submit" value="ingresar">
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

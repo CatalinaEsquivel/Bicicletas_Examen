@@ -1,0 +1,58 @@
+
+
+#formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url("img/fondooooo.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.Container {
+    background-color: #ffffffd1;
+    border-radius: 7px;
+    overflow: hidden;
+    width: 500px;
+    height: 700px;
+}
+
+.cont {
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #154234dd;
+    padding: 24px 40px;
+    color: #f0f0f0;
+}
+
+.cont h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 40px;
+}

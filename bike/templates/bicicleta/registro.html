@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+{% load static %}
+{% load socialaccount %} 
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="{% static 'bik/css/styleInicioSesion.css' %}">
+    <link rel="icon" type="img/jpg" href="{% static 'bik/img/Loggo.jpg' %}">
+
+    <title>Registro</title>
+</head>
+
+
+<body style="background-image: url('{% static 'bik/img/fontForm.jpg' %}')" ;>
+    <div class="container-form sign-up">
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido a CAZA BIKE!</h2>
+                <p>Inicia Sesión aquí</p> 
+                <a href="{% url 'iniciosesion' %}"><button class="sign-ini-btn">Iniciar Sesión</button></a>
+                <br>
+                <a href="{% url 'index' %}"><button class="volver">Volver</button></a>
+
+            </div>
+        </div>
+        <section id="formulario">
+            <div class="Container">
+                <div class="cont">
+                    <h2>Crear Cuenta</h2>
+                </div>
+                <form id="form" class="form">
+                    <div class="form-control">
+                        <label for="nombre"></label>
+                        <input type="text" placeholder="Nombre" id="nombre" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="email"></label>
+                        <input type="email" placeholder="Email" id="email" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="password"></label>
+                        <input type="password" placeholder="Contraseña" id="password" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="password2"></label>
+                        <input type="password" placeholder="Repetir contraseña" id="password2" />
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="aceptar terminos">
+                        <label><input type="checkbox" id="cbox1"> Aceptar términos y Condiciones</label>
+                    </div>
+                    <button>Registrarse</button>
+                </form>
+            </div>
+    </div>
+    <script src="{% static 'bik/js/script.js' %}"></script>
+</body>
+
+</html>
